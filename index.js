@@ -7,7 +7,7 @@ const cors = require('cors');
 // Habilitar CORS para todas las solicitudes
 app.use(cors());
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 const routes = require('./routes/tasks');
 
 app.use(express.json())
